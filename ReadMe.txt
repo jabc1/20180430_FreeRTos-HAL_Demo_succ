@@ -1,3 +1,5 @@
 20180430
-1����ֲHAL�⣬���Գɹ���STM32F103ZET6������
-2������FreeRTos������led��˸�ɹ�
+1、移植HAL库，测试成功基STM32F103ZET6开发板
+2、添加FreeRTos，测试led闪烁成功
+20180614
+1、添加使用定时器提供系统时钟并使用HAL_Delay时不会发生任务切换
